@@ -13,7 +13,6 @@ body {
 }
 
 /* header starts here */
-
 .header{
     width: 100vw;
     height: 100px;
@@ -38,7 +37,6 @@ body {
 }
 
 .myname h1 {
-    color: blue;
     height: 100%;
     display: table-cell;
     vertical-align: middle;
@@ -50,24 +48,24 @@ body {
     padding: 20px;
 }
 /*this code is to control the whole nav div */
-.nav {
+.navbar{
     float: right;
     height: 100%;
    /* background-color: gray; */
 }
 /*this code is to make each link align either at the top or bottom and add details to it */
-.nav a {
+.navbar a {
     height: 100%;
     display: table;
     float: left;
     padding: 0px 20px;
 }
 /*this is if you want to add color to the nav links when you hover the pointer over it. */
-.nav a li:hover {
+.navbar a li:hover {
     color: teal;
 }
 
-.nav a li {
+.navbar a li {
     display: table-cell;
     vertical-align: middle;
     height: 100%;
@@ -75,7 +73,7 @@ body {
     font-weight: 600;
 }
 
-.nav a:last-child {
+.navbar a:last-child {
     padding-right: 20px;
 }
 
@@ -109,12 +107,13 @@ body {
     background-color: white;
     padding: 20px;
     width: 980px;
-    margin: 50px auto;
-    border: solid 2px white;
+    margin: 100px auto;
+    border: solid 2px red
+      ;
 }
 
 input[type=text], select, textarea {
-    width: 960px;
+    width: 900px;
     padding: 10px;
     border: solid black;
     margin-top: 6px;
@@ -131,7 +130,7 @@ input[type=submit] {
 }
  
 #subject {
-    padding: 60px 10px;
+    padding: 10px 10px;
     
 }
 

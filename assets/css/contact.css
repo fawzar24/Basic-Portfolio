@@ -137,13 +137,20 @@ body {
   .container {
     border-radius: 5px;
     background-color: white;
-    padding: 20px;
+    border: solid 2px black;
+   
     margin: auto;
   }
-  
+  #Contact_head {
+    color: teal;
+    font-size: 32px;
+    font-weight: bold;
+    border-bottom: solid 3px white;
+
+}
   .col-25 {
     float: left;
-    width: 25%;
+
     margin-top: 6px;
   }
   

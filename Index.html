@@ -1,56 +1,104 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <!--<link rel="stylesheet"  href="assets/css/reset.css"/> --> 
-    <link rel="stylesheet"  href="assets/css/Style.css"/>  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
-    <title>My page</title>        
- </head>
- <body>
-    <div class="header">
-      <div class="inner_header">
-              
-              <div class="myname">
-                      <h1> Salahuddin Abdullahi </h1>  
-              </div>
-                            
-              <ul class="nav"> 
-                      <a href="index.html"><li>About</li></a>
-                      <a href="portfolio.html"><li>Portfolio</li></a>
-                      <a href="contact.html"><li>Contact</li></a>
-              </ul>         
-      </div> 
-    </div> 
 
-    <div class="Container"></div>
+<head>
+  <meta charset="UTF-8">
+  <!--<link rel="stylesheet"  href="assets/css/reset.css"/> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/Style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+  <title>My page</title>
+</head>
 
-      <div id="index_content">
+<body>
 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">SourceWall</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">About me<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+    
+      </ul>
+    </div>
+  </nav>
+
+
+
+  <!-- <div class="header">
+    
+    <div class="inner_header">
+      <div class="myname">
+        <h1> SourceWall </h1>
+      </div>
+
+      <ul class="navbar ">
+        <a href="index.html">
+          <li>About</li>
+        </a>
+        <a href="portfolio.html">
+          <li>Portfolio</li>
+        </a>
+        <a href="contact.html">
+          <li>Contact</li>
+        </a>
+      </ul>
+    </div>
+  </div> -->
+
+  <div class="container" id="index_content">
+    <div class="row">
+      <div class="col-md-12">
         <h2 id="about_me">About me</h2>
 
-           <hr>
+        <hr>
 
-        <div>
-          <img id="photo" src="assets/images/salah.jpg" alt="My universe" width="200px" height="200px">
+
+
+        <div class="main_text">
+            <img class="img-info" id="photo" src="assets/images/salah.jpg" alt="My universe">
+          <p>My name is Salahuddin, but individuals call me Salah which is fine. My parents are really the only people
+            who
+            call me by my full name anyways. I am graduate from the University of Wisconsin Stout with a bachelors
+            Degree
+            in
+            Biochemistry with emphasis on research and development. I currently work at a hosiptal lab doing blood work
+            and
+            other stuff and I also work at apple at a technical specailist. I love working out and playing basketball as
+            it
+            clears my head.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu pulvinar est, ac aliquet lacus.
+            Curabitur eget ligula congue, tincidunt mauris eu, laoreet velit. Fusce bibendum viverra magna sed
+            tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque convallis
+            congue luctus. Quisque lectus quam, varius quis tristique in, tempor ac nisl. Nunc varius lectus nec ante
+            tristique fringilla. Morbi ex sem, maximus in arcu sed, faucibus venenatis diam. Pellentesque at justo odio.
+          </p>
         </div>
-
-       <div class="main_text">
-          <p>My name is Salahuddin, but individuals call me Salah which is fine. My parents are really the only people who call me by my full name anyways. I am graduate from the University of Wisconsin Stout with a bachelors Degree in Biochemistry with emphasis on research and development. I currently work at a hosiptal lab doing blood work and other stuff and I also work at apple at a technical specailist. I love working out and playing basketball as it clears my head.</p>
-       </div>
-        
       </div>
     </div>
+  </div>
 
-    <div class="footer">
-      <div class="inner_footer">
-          <div class="copyright">
-              <p>Copyright ©</p>
-          </div>
+  <div class="footer">
+    <div class="inner_footer">
+      <div class="copyright">
+        <p>Copyright ©</p>
       </div>
     </div>
+  </div>
 
 
-  </body>
+</body>
+
 </html>
